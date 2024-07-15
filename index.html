@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sri Lanka Export Company - Premium Spices and More</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
+      <div class="container">
+        <a href="#" class="navbar-brand">Ceylon Spices</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarId"
+        >
+          <span><i class="fa fa-bars hamburger"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarId">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="container-fluid header-content">
+        <div class="row">
+          <div class="col text-center">
+            <div class="content-box">
+              <h1>Welcome to Ceylon Spices!</h1>
+              <p><span class="element"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Slideshow container -->
+    <div class="slider-title text-center">
+      <h1>Explore Our Premium Spices</h1>
+      <p>
+        Experience the rich flavors and vibrant colors of our finest spices from
+        Sri Lanka.
+      </p>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="images/spice1.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="images/spice2.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="images/spice3.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="images/spice4.jpg" style="width: 100%" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!-- about section -->
+    <section class="about r-p" id="about">
+      <div class="container">
+        <h1 class="text-center">About Ceylon Spices</h1>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <video class="img-fluid" loop autoplay muted>
+              <source src="videos/about-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0 justify-content-center">
+            <p>
+              Founded in 1990, Ceylon Spices has been a leader in sourcing and
+              delivering the finest spices from Sri Lanka. With over three
+              decades of experience, we are dedicated to providing high-quality,
+              authentic spices that showcase the rich heritage and vibrant
+              flavors of our island.
+            </p>
+            <p>
+              Our extensive selection includes everything from aromatic cinnamon
+              and zesty curry leaves to fragrant cardamom and robust black
+              pepper. Each spice is sourced directly from local farmers,
+              ensuring sustainable practices and fair trade. We prioritize
+              strong relationships with our suppliers, which allows us to
+              support local communities while guaranteeing the freshest
+              products.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-6 mt-5 mt-lg-0">
+            <h2 class="text-center">Our Vision</h2>
+            <p>
+              To be the leading global provider of authentic Sri Lankan spices,
+              renowned for our commitment to quality, sustainability, and the
+              rich culinary heritage of Ceylon. We aspire to inspire culinary
+              creativity and connect people to the vibrant flavors of Sri Lanka,
+              making our spices a staple in kitchens around the world
+            </p>
+
+            <h2 class="text-center">Our Mission</h2>
+            <p>
+              To deliver the highest quality, authentic Sri Lankan spices by
+              fostering sustainable practices and supporting local farmers. We
+              aim to enhance culinary experiences worldwide by providing our
+              customers with a diverse range of spices that reflect the rich
+              heritage and vibrant flavors of Ceylon.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="images/aboutus-photo.jpg"
+              class="img-fluid img-thumbnail"
+              alt="aboutusimage"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products section -->
+    <section class="products r-p bg-sec" id="products">
+      <div class="container">
+        <h1 class="text-center">Our Products</h1>
+        <p>
+          Explore our carefully curated selection of premium spices from Sri
+          Lanka.
+        </p>
+        <div class="row mt-5">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/cinnamon.jpg"
+                alt="Product 1"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Ceylon Cinnamon Sticks</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Sweet and aromatic, perfect for baking and savory dishes.
+                  Elevate your desserts and stews with the warm flavor of
+                  authentic Ceylon cinnamon.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$8.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/turmeric.jpg"
+                alt="Product 2"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Turmeric Powder</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Vibrant and earthy, adds color and health benefits to your
+                  meals. Ideal for curries, soups, and smoothies, packed with
+                  anti-inflammatory properties.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$6.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/peppercorns.jpg"
+                alt="Product 3"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Black Peppercorns</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Bold and spicy, ideal for enhancing flavor in any dish.
+                  Freshly ground peppercorns add a robust kick to your favorite
+                  recipes.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$7.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/cardamom.jpg"
+                alt="Product 4"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Cardamom Pods</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Fragrant and flavorful, great for both sweet and savory
+                  recipes. Use in baking, curries, or spiced teas for a unique
+                  citrusy and herbal note.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$10.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/cloves.jpg"
+                alt="Product 5"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Clove Buds</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Warm and aromatic, perfect for holiday baking and spice
+                  blends. Add a distinct flavor to desserts, beverages, and
+                  savory dishes.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$9.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/curry-leaves.jpg"
+                alt="Product 6"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Curry Leaves</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Fresh and aromatic, essential for authentic Sri Lankan
+                  cuisine. Infuse rich flavors into curries, chutneys, and
+                  soups.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$5.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/nutmeg.jpg"
+                alt="Product 7"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Nutmeg</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Sweet and nutty, adds depth to desserts and savory dishes.
+                  Grate fresh nutmeg into your recipes for a warm, spicy-sweet
+                  flavor.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$7.49</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/coriander.jpg"
+                alt="Product 8"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Coriander Seeds</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Citrusy and aromatic, great for curries and spice rubs. Toast
+                  them to release their full flavor and enhance your culinary
+                  creations.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$6.49</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="images/fenugreek.jpg"
+                alt="Product 9"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Fenugreek Seeds</h4>
+                <div class="product-border"></div>
+                <p class="card-text">
+                  Bitter and nutty, perfect for adding complexity to curries and
+                  pickles. Known for their health benefits, including aiding
+                  digestion.
+                </p>
+                <div class="mt-auto">
+                  <p class="product-price">$7.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact us section -->
+    <section class="contact r-p bg-sec" id="contact">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you!</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class="r-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="text-center">
+              <h4>Call Us</h4>
+              <p>+94 123 456 789</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="r-icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text-center">
+              <h4>Email Us</h4>
+              <p>info@ceylonspices.com</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="r-icon">
+              <i class="fas fa-map-pin"></i>
+            </div>
+            <div class="text-center">
+              <h4>Visit Us</h4>
+              <p>123 Spice Lane, Colombo, Sri Lanka</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col">
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Name" />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Your Message"
+                  style="resize: none"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn r-btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <div
+        class="container h-100 d-flex align-items-center justify-content-center"
+      >
+        <div class="row">
+          <div class="col">
+            <div class="r-icon text-center mt-3">
+              <ul>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+            <p class="text-muted" style="font-size: 14px">
+              &copy; copyright Ceylon Spices | 2024 All Right Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/popper.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/typed.js"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
